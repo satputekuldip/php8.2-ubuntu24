@@ -1,0 +1,9 @@
+services:
+  ubuntu:
+      build:
+        context: .
+        dockerfile: Dockerfile
+        platforms:
+          - linux/amd64
+          - linux/arm64
+      image: satputekuldip/php8.2:ubuntu24
